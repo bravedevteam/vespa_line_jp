@@ -1,0 +1,1938 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179744325-1"></script>-->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1, user-scalable=0" >
+
+        <title>라인프렌즈 레이더</title>
+        <meta name="format-detection" content="teleemail=no" />
+        <meta property="og:image" content=""/>
+        <meta property="og:title" content="라인프렌즈 레이더 업데이트" />
+        <meta property="og:image:type" content="image/jpeg"/>
+        <meta property="og:image:width" content="413"/>
+        <meta property="og:image:height" content="207"/>
+        <meta property="og:description" content=""/>
+        <meta property="og:keywords" content="">
+        <link rel=" shortcut icon" href="img/favicon.ico">
+        <link rel="icon" href="img/favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link href="./css/main.css" rel="stylesheet">
+        <link href="./css/normalize.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/swiper.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <!--<link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>-->
+        <script src="js/swiper.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <!-- Facebook Pixel Code -->
+
+
+    </head>
+    <body>
+        <div class="wrap">
+            <section class="section1" style="position: relative;z-index:5">
+                <div class="container">
+                    <div class="clearfix header">
+                        <div class="sec1_left">
+                            <div class="pc">
+                                <a class="go_store" href="https://apps.apple.com/app/id1097735195?mt=8" target="_blank"><img src="img/app_store.png" alt="애플스토어로"></a>
+                                <a class="go_store" href="https://play.google.com/store/apps/details?id=com.vespainteractive.KingsRaid&amp;referrer=adjust_reftag%3Dctwub1PJwRVoice%20ActorT%26utm_source%3D20200525_Preregister_Fallenfate%26utm_campaign%3DBrandsite" 
+                                style="margin-top: 10px;" target="_blank"><img src="img/google_play.png" alt="구글플레이로"></a>
+                            </div>
+                            <div class="mobile">
+                                <a class="ham" href="javascript:">                               
+                                    <img src="img/m_ham.png" alt="햄버거버튼">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sec1_right">
+                            <div class="pc">
+                               <a href="https://event.kingsraid.com/fallenfate" class="home"><img src="img/home.png" alt="홈으로"></a>
+                            </div>
+                            <div class="mobile">
+                                <a href="https://event.kingsraid.com/fallenfate" class="home"><img src="img/m_home.png" alt="홈으로"></a>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="sec1_txt">
+                        <div>
+                            <img src="img/sec1_txt.png" alt="라인프렌즈 레이더 업데이트">
+                            <a class="go_sec2"><img src="img/reserve_bt.png" alt="예약버튼"></a>
+                       </div>
+                    </div>
+                </div>
+                <div class="sec1_img">
+                    <img src="img/sec1_img.png" alt="프렌즈 이미지">
+                </div>
+                <div class="container2 clearfix">
+                    <div class="sec1_left copy">
+                        <img src="img/line_copy2.png" alt="copy">
+                    </div>
+                    <div class="sec1_right copy">
+                        <img src="img/line_copy1.png" alt="copy">
+                    </div>
+                </div>
+            </section>
+            <section class="section2" data-400="opacity:0.3;transition: all ease-in-out 0.7s;" data-600="opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:4">
+                <div class="container">
+                    <div class="title sec2_title">
+                        <img src="img/sec2_title.png" alt="사전예약">
+                    </div>
+                    <div class="max_1200 clearfix">
+                        <div class="left sec2_left">
+                            <span class="sec2_txt">情報入力</span>
+                            <!-- <img class="sec2_txt" src="img/sec2_Input.png" alt="정보 입력"> -->
+                            <form action="#" id="form" method="post" onsubmit="return false;">
+                                <div class="form">
+                                    <ul class="store clearfix">
+                                        <li class="form-group store-group">
+                                            <input type="checkbox" class="store" id="app_store" name="apple" onclick="oneCheckbox(this)">
+                                            <label class="app_store" for="app_store">
+                                                <img class="mobile" src="img/g_apple.png" alt="애플아이콘">
+                                                <span>App Store</span>
+                                            </label>
+                                        </li>
+                                        <li class="form-group store-group">
+                                            <input type="checkbox" class="store" id="google_play" name="google" onclick="oneCheckbox(this)">
+                                            <label class="google_play" for="google_play">
+                                                <img class="mobile" src="img/g_play.png" alt="구글아이콘">
+                                                <span>Google Play</span>
+                                            </label>	
+                                        </li>											  			  
+                                    </ul>
+                                    <input class="email" name="email" id="email" type="email" placeholder="メールアドレスを入力" />
+                                    <ul class="agree_wrap">
+                                        <li class="form-group agree_group" style="width: 100%;">
+                                            <input type="checkbox" id="ag1" name="ag1" class="agree">
+                                            <label for="ag1">
+                                                <p class="ag_txt1">[必須] 個人情報の収集及び利用</p>
+                                            </label>
+                                            <a href="javascript:" class="detail pc info" style="float: right; position: absolute; right:0; top:-3px;">詳細を見る</a>
+                                            <a href="javascript:" class="detail mobile info"><img src="img/arrow_right.png" alt="자세히" style="vertical-align: middle;"></a>
+                                        </li>
+                                        <li class="form-group agree_group">
+                                            <input type="checkbox" id="ag2" name="ag2" class="agree">
+                                            <label for="ag2">
+                                                <p class="ag_txt1">[必須] イベント及びプロモーション通知を受け取る</p>
+                                            </label>	
+                                            <a href="javascript:" class="detail pc event" style="float: right; position: absolute; right:0; top:-3px;">詳細を見る</a>
+                                            <a href="javascript:" class="detail mobile event"><img src="img/arrow_right.png" alt="자세히" style="vertical-align: middle;"></a>							
+                                        </li>
+                                        <li class="form-group agree_group">
+                                            <input type="checkbox" id="ag3" name="ag3" class="agree_all">
+                                            <label for="ag3">
+                                                <p class="ag_txt2">個人情報の収集および利用に同意する。</p>
+                                            </label>
+                                        </li>																  
+                                    </ul>
+                                    <div class="submit_wrap">
+                                        <a class="submit">
+                                            <span>登録完了</span>                                  
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                            <p class="line_link"><a href="https://lin.ee/8GXBFeg" target="_blank"><img src="img/ico_line.png" alt="line" />LINEで友だち追加して最新情報を受け取ろう！</a></p>
+                        </div>
+                        <div class="right sec2_right">
+                            <span class="sec2_txt">支給報酬</span>
+                            <img class="sec2_pet" src="img/pet.png" alt="펫 이미지">
+                            <span>勇士選擇券（小沙克梅) /</span>
+                            <span>魂石チケット×1枚</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section3" data-1749="opacity:0.3;transition: all ease-in-out 0.7s;" data-1750="opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:3">
+                <div class="container" style="position: relative;">
+                    <div class="sec3_title">
+                        <img src="img/sec3_title.png" alt="사전예약">
+                    </div>
+                    <ul class="max_1200 clearfix" style="position: relative;">
+                        <li class="a_one clearfix"  data-1700="opacity:0.3;transition: all ease-in-out 0.5s;" data-1800="opacity:1;transition: all ease-in-out 0.5s;" style="position: relative;z-index:3">
+                            <span class="check active">
+                            </span>
+                            <img src="img/1.png" alt="1만 달성">
+                        </li>
+                        <li class="a_three clearfix" data-1700="opacity:0.3;transition: all ease-in-out 0.5s;" data-1800="opacity:1;transition: all ease-in-out 1.5s;" style="position: relative;z-index:3">
+                            <span class="check">
+                            </span>
+                            <img src="img/3.png" alt="3만 달성">
+                        </li>
+                        <li class="a_six clearfix" data-1700="opacity:0.3;transition: all ease-in-out 0.5s;" data-1800="opacity:1;transition: all ease-in-out 2.5s;" style="position: relative;z-index:3">
+                            <span class="check">
+                            </span>
+                            <img src="img/6.png" alt="6만 달성">
+                        </li>
+                        <li class="a_ten clearfix" data-1700="opacity:0.3;transition: all ease-in-out 0.5s;" data-1800="opacity:1;transition: all ease-in-out 3.5s;" style="position: relative;z-index:3"> 
+                            <span class="check">
+                            </span>
+                            <img src="img/10.png" alt="10만 달성">
+                        </li>
+                        <li class="dot"></li>
+                    </ul>
+                    <div class="precautions">
+                        <img src="img/precautions.png" alt="주의사항">
+                        <ul>
+                            <li>達成カウントはグローバル集計となり、目標達成の際に全サーバーの勇者の皆様のポストに報酬が支給されます。</li>
+                            <li style="margin-top:10px;">報酬は12月8日メンテナンス終了後から、1月7日まで受け取ることができます。(期間変更の可能性あり)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section4" data-2649="opacity:0.3;transition: all ease-in-out 0.7s;" data-2650="opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:2">
+                <div class="container">
+                    <div class="title sec4_title">
+                        <img src="img/sec4_title.png" alt="사전예약">
+                    </div>
+                    <div class="character pc" data-2400="left:-100%;opacity:0.3;transition: all ease-in-out 0.7s;" data-2700="left:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:2">
+                        <img src="img/sec4_img.png" alt="캐릭터">
+                        <a class="sec4_plus sec4_plus1">
+                            <span>+</span>
+                        </a>
+                        <a class="sec4_plus sec4_plus2">
+                            <span>+</span>
+                        </a>
+                        <a class="sec4_plus sec4_plus3">
+                            <span>+</span>
+                        </a>
+                        <a class="sec4_plus sec4_plus4">
+                            <span>+</span>
+                        </a>
+                        <a class="sec4_plus sec4_plus5">
+                            <span>+</span>
+                        </a>
+                    </div>
+                    <div class="character mobile swiper-container m_slide1" style="overflow: visible;">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slide_wrap">
+                                    <div class="char" style="padding:60px 0;"> 
+                                        <img src="img/m_mado.png" alt="mado" class="sec4_char_img" style="max-width: 411px; width: 64%; margin-left: 25px;"></img>
+                                    </div>
+                                    <div class="sec4_name">
+                                        <a href="javascript:" class="mado"><span>魔導人形 PKDIV LV.3</span><img src="img/+.png" alt="+"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_wrap">                         
+                                    <div class="char" style="padding-top:20px;"> 
+                                        <img src="img/m_shark.png" alt="mado" class="sec4_char_img" style="max-width: 423px; width: 66%;"></img>
+                                    </div>
+                                    <div class="sec4_name">
+                                        <a href="javascript:" class="shark"><span>異形の闇 プチシャクメ</span><img src="img/+.png" alt="+"></a>
+                                    </div>
+                                </div>       
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_wrap">                                     
+                                <div class="char"  style="padding-top:10px;"> 
+                                    <img src="img/m_bebe.png" alt="mado" class="sec4_char_img" style="max-width: 423px; width: 65%;"></img>
+                                </div>
+                                <div class="sec4_name">
+                                    <a href="javascript:" class="bebe"><span>生命のアリア ビビー</span><img src="img/+.png" alt="+"></a>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_wrap">                                     
+                                    <div class="char" style="top:-20px; z-index: 1000;"> 
+                                        <img src="img/m_ad.png" alt="mado" class="sec4_char_img" style="max-width: 389px; width: 60%;"></img>
+                                    </div>
+                                    <div class="sec4_name">
+                                        <a href="javascript:" class="ad"><span>祝福の台風 エディー</span><img src="img/+.png" alt="+"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_wrap">         
+                                <div class="char" style="padding-top: 60px;"> 
+                                    <img src="img/m_moara.png" alt="mado" class="sec4_char_img"  style="max-width: 582px; width: 99%;"></img>
+                                </div>
+                                <div class="sec4_name">
+                                    <a href="javascript:" class="moara"><span>ちび邪竜大将 モアーラ</span><img src="img/+.png" alt="+"></a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m_arrow mobile">
+                        <a class="m_prev1 prev"><img src="img/c_arrow_left.png" alt="prev"></a>
+                        <a class="m_next1 next"><img src="img/c_arrow_right.png" alt="next"></a>
+                    </div>
+                </div>
+            </section>    
+            <section class="section5" data-3149="opacity:0.3;transition: all ease-in-out 0.7s;" data-3150="opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:1">
+                <div class="container">
+                    <div class="title sec5_title">
+                        <img src="img/sec5_title.png" alt="사전예약">
+                    </div>
+                    <div class="sec5_character pc" data-3700="right:-100%;opacity:0.3;transition: all ease-in-out 0.7s;" data-3800="right:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:2">
+                        <img src="img/sec5_img.png" alt="캐릭터">
+                        <!--
+                        <div class="plus">
+                            <a class="sec5_plus sec5_plus1">
+                                <span>+</span>
+                            </a>
+                            <a class="sec5_plus sec5_plus2">
+                                <span>+</span>
+                            </a>
+                            <a class="sec5_plus sec5_plus3">
+                                <span>+</span>
+                            </a>
+                            <a class="sec5_plus sec5_plus4">
+                                <span>+</span>
+                            </a>
+                            <a class="sec5_plus sec5_plus5">
+                                <span>+</span>
+                            </a>
+                            <a class="sec5_plus sec5_plus6">
+                                <span>+</span>
+                            </a>
+                            <a class="sec5_plus sec5_plus7">
+                                <span>+</span>
+                            </a>
+                            <a class="sec5_plus sec5_plus8">
+                                <span>+</span>
+                            </a>
+                        </div>
+                        -->
+                </div>
+                <div class="character mobile swiper-container m_slide2" style="overflow: visible;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide_wrap">
+                                <div class="char" style="padding-top:64px;"> 
+                                    <img src="img/m_moon.png" alt="moon" class="sec4_char_img" style="max-width: 294px; width: 46%;"></img>
+                                </div>
+                                <div class="sec5_name">
+                                    <a href="javascript:" class="moon"><span>ムーン</span><!--<img src="img/+.png" alt="+">--></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_wrap">                         
+                                <div class="char" style="padding-top:60px;"> 
+                                    <img src="img/m_choco.png" alt="mado" class="sec4_char_img" style="max-width: 231px; width: 36%;"></img>
+                                </div>
+                                <div class="sec5_name">
+                                    <a href="javascript:" class="choco"><span>チョコ</span><!--<img src="img/+.png" alt="+">--></a>
+                                </div>
+                            </div>       
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_wrap">                                     
+                            <div class="char" style="padding-top:140px;"> 
+                                <img src="img/m_sally.png" alt="mado" class="sec4_char_img" style="max-width: 170px; width: 29.5%;"></img>
+                            </div>
+                            <div class="sec5_name">
+                                <a href="javascript:" class="sally"><span>サリー</span><!--<img src="img/+.png" alt="+">--></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_wrap">                                     
+                                <div class="char" style="padding-top:10px;"> 
+                                    <img src="img/m_coni.png" alt="mado" class="sec4_char_img" style="max-width: 237px; width: 39%;"></img>
+                                </div>
+                                <div class="sec5_name">
+                                    <a href="javascript:" class="coni"><span>コニー</span><!--<img src="img/+.png" alt="+">--></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_wrap">         
+                            <div class="char" style="padding-top:140px;"> 
+                                <img src="img/m_edward.png" alt="mado" class="sec4_char_img"  style="max-width: 97px; width: 20%;"></img>
+                            </div>
+                            <div class="sec5_name">
+                                <a href="javascript:" class="edward"><span>エドワード</span><!--<img src="img/+.png" alt="+">--></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_wrap">         
+                            <div class="char" style="padding-top:64px;"> 
+                                <img src="img/m_runnard.png" alt="mado" class="sec4_char_img"  style="max-width: 187px; width: 34%;"></img>
+                            </div>
+                            <div class="sec5_name">
+                                <a href="javascript:" class="runnard"><span>レナード</span><!--<img src="img/+.png" alt="+">--></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_wrap">         
+                            <div class="char" style="padding-top:80px;"> 
+                                <img src="img/m_jessica.png" alt="mado" class="sec4_char_img"  style="max-width: 268px; width: 42%;"></img>
+                            </div>
+                            <div class="sec5_name">
+                                <a href="javascript:" class="jessica"><span>ジェシカ</span><!--<img src="img/+.png" alt="+">--></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_wrap">         
+                            <div class="char" style="padding-top:42px;"> 
+                                <img src="img/m_brown.png" alt="mado" class="sec4_char_img"  style="max-width: 259px; width: 40.5%;"></img>
+                            </div>
+                            <div class="sec5_name">
+                                <a href="javascript:" class="brown"><span>ブラウン</span><!--<img src="img/+.png" alt="+">--></a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m_arrow mobile">
+                    <a class="m_prev2 prev"><img src="img/c_arrow_left.png" alt="prev"></a>
+                    <a class="m_next2 next"><img src="img/c_arrow_right.png" alt="next"></a>
+                </div>
+                <div class="coming">
+                    <!-- <img src="img/p_later.png" alt="추후공개" class="pc"> -->
+                    <span class="update">詳細は追ってアップデートされます。</span>
+                </div>
+                </div>
+            </section>           
+            <footer>
+                <address>
+                    <img src="img/footer_logo.png" alt="footer_logo">
+                    <small>COPYRIGHT(C) 2020 VESPA INC, ALL RIGHTS RESERVED.</small>
+                </address>
+            </footer>
+            <div class="nav clearfix">
+                    <div class="sns">
+                        <ul>
+                            <li><a href="javascript:" onclick="Share('facebook')"><img src="img/facebook.png" alt="페이스북"></a></li>
+                            <li><a href="javascript:" onclick="Share('twitter')"><img src="img/twitter.png" alt="트위터"></a></li>
+                            <li><a href="javascript:" onclick="CopyUrlToClipboard(); return false;" class="clip"><img src="img/url.png" alt="클립"></a></li>
+                        </ul>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><span>メイン</span></li>
+                            <li><span>事前登録</span></li>
+                            <li><span>報酬のご案内</span></li>
+                            <li><span>レイダー紹介１</span></li>
+                            <li><span>レイダー紹介2</span></li>
+                        </ul>
+                    </nav>
+            </div>
+        </div>
+        <div class="bg" style="display: none;">
+            
+        </div>
+        <div class="reser_pop pop_up1" style="display:none;">
+            <div class="pop_up_wrap">
+                    <a href="javascript:void(0);" class="agree_close close"><img src="img/pop_up_x.png" alt='닫기'></a>
+                   <div class="pop_up_txt">
+                        <span class="pop_up_title">個人情報の収集及び利用の同意</span>
+                        <span class="pop_up_sub">(株)Vespaは下記の通りに個人情報を収集及び利用します</span>
+                        <ul class="collection">
+                            <li>
+                                <span class="bold">収集目的</span>
+                                <span>イベント等の通知</span>
+                            </li>
+                            <li>
+                                <span class="bold">利用目的</span>
+                                <span>イベント等の通知発信</span>
+                            </li>
+                            <li>
+                                <span class="bold">項目</span>
+                                <span>メールアドレス</span>
+                            </li>
+                            <li>
+                                <span class="bold">保管及び利用期間</span>
+                                <span>収集日から1年</span>
+                            </li>                                 
+                        </ul>
+                        <hr>
+                        <ul class="small">
+                            <li style="margin-bottom: 5px;"><span style="color:#666;">同意しない場合、事前予約ができません</span></li>
+                            <li><span style="color:#666;">送信日から6か月間、履歴を保管します</span></li>
+                        </ul>
+                   </div>
+            </div>
+        </div>
+        <div class="reser_pop pop_up2" style="display:none;">
+            <div class="pop_up_wrap">
+                    <a href="javascript:void(0);" class="agree_close close"><img src="img/pop_up_x.png" alt='닫기'></a>
+                   <div class="pop_up_txt">
+                        <span class="pop_up_title">イベント等のプロモーシ<span>ョン通知受信の同意</span>
+                        <span class="pop_up_sub">
+                            (株)Vespaが提供するすべてのゲームサー<br/>
+                            ビス及びイベントに関する<br/>
+                            プロモーション通知の受信に同意します
+                        </span>
+                   </div>
+            </div>
+        </div>
+        <div class="reser_pop pop_up3"  style="display:none;">
+            <div class="pop_up_wrap">
+                    <a href="javascript:void(0);" class="agree_close close"><img src="img/pop_up_x.png" alt='닫기'></a>
+                   <div class="pop_up_txt">
+                        <span class="pop_up_title" style="font-weight: normal;">メールアドレスを正確</br>
+                            に入力してください</span>
+                   </div>
+            </div>
+        </div>
+        <div class="reser_pop pop_up4"  style="display:none;">
+            <div class="pop_up_wrap">
+                    <a href="javascript:void(0);" class="agree_close close"><img src="img/pop_up_x.png" alt='닫기'></a>
+                   <div class="pop_up_txt">
+                        <span class="pop_up_title" style="font-weight: normal;">申請が完了している</br>
+                            メールアドレスです</span>
+                   </div>
+            </div>
+        </div>
+        <div class="reser_pop pop_up5"  style="display:none;">
+            <div class="pop_up_wrap">
+                    <a href="javascript:void(0);" class="agree_close close"><img src="img/pop_up_x.png" alt='닫기'></a>
+                   <div class="pop_up_txt">
+                    <span class="pop_up_title" style="font-weight: normal;">すべての必須項目へ</br>
+                        の同意が必要です</span>
+                   </div>
+            </div>
+        </div>
+        <div class="reser_pop pop_up6" style="display:none;">
+            <div class="pop_up_wrap">
+                    <a href="javascript:void(0);" class="agree_close close"><img src="img/pop_up_x.png" alt='닫기'></a>
+                   <div class="pop_up_txt">
+                        <span class="pop_up_title">事前登録が完了しました</span>
+                        <span class="pop_up_sub" style="margin-top:10px;">(株)Vespa 2020年00月00日</br>
+                            イベント等のプロモーション</br>
+                            通知受信の同意が完了しました</span>
+                   </div>
+            </div>
+        </div>
+        <!-- 사전 예약시 누락된 메시치 추가 20201122 -->
+        <div class="reser_pop pop_up7" style="display:none;">
+            <div class="pop_up_wrap">
+                    <a href="javascript:void(0);" class="agree_close close"><img src="img/pop_up_x.png" alt='닫기'></a>
+                   <div class="pop_up_txt">
+                        <span class="pop_up_title">Appstore, Playstore を選択してください</span>
+                   </div>
+            </div>
+        </div>
+        <!-- 사전 예약시 누락된 메시치 추가 20201122 -->
+        <div class="reser_pop pop_up8" style="display:none;">
+            <div class="pop_up_wrap">
+                    <a href="javascript:void(0);" class="agree_close close"><img src="img/pop_up_x.png" alt='닫기'></a>
+                   <div class="pop_up_txt">
+                        <span class="pop_up_title">App Storeまたは<br />Google Playを選択してください</span>
+                   </div>
+            </div>
+        </div>
+        <div class="pop_up pc" style="display:none">
+            <div>
+                <div class="sec4_detail circle">
+                    <div class="mado pop" style="display:none">
+                        <div class="sec4_img swiper-container cir_slide1"  style="padding-top: 165px;">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/mado1.png" alt="마도1" class="one" style="position: relative; left: 3.5%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/mado2.png" alt="마도2" class="two"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/mado3.png" alt="마도3" class="three">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/mado1.png" alt="마도1" class="one" style="position: relative; left: 3.5%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/mado2.png" alt="마도2" class="two"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/mado3.png" alt="마도3" class="three">  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec4_txt" style="margin-top: 10px;">
+                            <img src="img/mado.png" style="margin-bottom: 20px;">
+                            <span>正体不明の組織「パンドラ」が、兵器としての工学人形を生産す</span>
+                            <span>る前に制作したテスト用の機体。</span>
+                            <span>組織内で期待以上の人気を集めたことをきっかけに、</span>
+                            <span>資金を確保するために市販されることとなった。</span>
+                        </div>
+                    </div>
+                    <div class="bebe pop" style="display: none;">
+                        <div class="sec4_img swiper-container cir_slide2"  style="padding-top: 165px;">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/bebe1.png" alt="비비1" class="one" style="position: relative; left: 3%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/bebe2.png" alt="비비2" class="two"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/bebe3.png" alt="비비3" class="three">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/bebe1.png" alt="비비1" class="one" style="position: relative; left: 3%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/bebe2.png" alt="비비2" class="two"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/bebe3.png" alt="비비3" class="three">  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec4_txt">
+                            <img src="img/bebe.png">
+                            <span>歌を歌うことが特技である不思議な生物。</span>
+                            <span>その心安らぐ音色には、病を治癒させ、</span>
+                            <span>疲れ切った体を回復させる効果があると言われている。</span>
+                        </div>
+                    </div>
+                    <div class="moara pop" style="display: none;">
+                        <div class="sec4_img swiper-container cir_slide3"  style="padding-top: 165px;">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/moara1.png" alt="모아라1" class="one" style="position: relative; left: 2%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moara2.png" alt="모아라2" class="two"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moara3.png" alt="모아라3" class="three">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moara1.png" alt="모아라1" class="one" style="position: relative; left: 2%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moara2.png" alt="모아라2" class="two"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moara3.png" alt="모아라3" class="three">  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec4_txt" style="margin-top: 10px;">
+                            <img src="img/moara.png" style="margin-bottom: 20px;">
+                            <span>自身の力を証明するために潔く一族の村から飛び出したちびの邪竜。</span>
+                            <span>まだまだ子供の体だが、恐ろしいほどの可能性を秘めている。</span>
+                        </div>
+                    </div>
+                    <div class="ad pop" style="display: none;">
+                        <div class="sec4_img swiper-container cir_slide4" style="padding-top: 116px;">
+                            <div class="swiper-wrapper">
+                               <div class="swiper-slide">
+                                  <img src="img/ed1.png" alt="에디1" class="one"> 
+                               </div>
+                               <div class="swiper-slide">
+                                  <img src="img/ed2.png" alt="에디2" class="two"> 
+                               </div>
+                               <div class="swiper-slide">
+                                 <img src="img/ed3.png" alt="에디3" class="three"> 
+                               </div>  
+                               <div class="swiper-slide">
+                                <img src="img/ed1.png" alt="에디1" class="one"> 
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/ed2.png" alt="에디2" class="two"> 
+                            </div>
+                            <div class="swiper-slide">
+                            <img src="img/ed3.png" alt="에디3" class="three"> 
+                             </div>  
+                            </div>  
+                        </div>
+                        <div class="sec4_txt">
+                            <img src="img/ed.png">
+                            <span>台風の前に姿を現すといわれる生物。</span>
+                            <span>台風を呼び起こしていると人々に恨まれがちだが、</span>
+                            <span>台風が過ぎ去った後には大地の恵みを与えて豊作にするようだ。</span>
+                        </div>
+                    </div>
+                    <div class="shark pop" style="display: none;">
+                        <div class="sec4_img swiper-container cir_slide5"  style="padding-top: 140px;">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/shark1.png" alt="샤크메1" class="one"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/shark2.png" alt="샤크메2" class="two" style="position: relative; left: 2%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/shark3.png" alt="샤크메3" class="three">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/shark1.png" alt="샤크메1" class="one"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/shark2.png" alt="샤크메2" class="two" style="position: relative; left: 2%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/shark3.png" alt="샤크메3" class="three">  
+                                </div>                               
+                            </div>
+                        </div>
+                        <div class="sec4_txt" style="margin-top: 20px;">
+                            <img src="img/shark.png" style="margin-bottom: 20px;">
+                            <span>シャクメと同じ見た目をしている正体不明の生物。</span>
+                            <span>幸い、闇の力を扱ってはいないようだ。</span>
+                            <span>たゆまぬ愛情を注がないと、</span>
+                            <span>簡単にすねちゃうので注意が必要。</span>
+                        </div>
+                    </div>
+                    <div class="arrow_wrap">
+                        <a href="javascript:" class="arrow prev c_prev1"></a>
+                        <a href="javascript:" class="arrow next c_next1"></a>
+                    </div>
+                </div>
+                <a href="javascript:" class="close" style="margin-top:10px; display: block;"><img src="img/x.png" alt="close"></a>
+            </div>
+        </div>
+        <div class="m_pop_up mobile" style="display: none;">
+            <div>
+                <div style="text-align: right">
+                    <a href="javascript:" class="close d_close"><img src="img/w_x.png" alt="close"></a>
+                </div>
+                <div class="sec4_detail">
+                    <div class="pop_mado pop" style="display:none">
+                        <div class="sec4_img swiper-container detail_slide1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/mado1.png" alt="마도1" class="one" style="position: relative; left: 3.5%; max-width: 477px; width: 74%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/mado2.png" alt="마도2" class="two" style="max-width: 482px; width: 75%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/mado3.png" alt="마도3" class="three" style="max-width: 494px; width: 77%;">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/mado1.png" alt="마도1" class="one" style="position: relative; left: 3.5%; max-width: 477px; width: 74%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/mado2.png" alt="마도2" class="two" style="max-width: 482px; width: 75%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/mado3.png" alt="마도3" class="three" style="max-width: 494px; width: 77%;">  
+                                </div>                               
+                            </div>
+                        </div>
+                        <div class="detail_arrow mobile">
+                            <a class="m_prev1_1"><img src="img/c_arrow_left.png" alt="prev"></a>
+                            <a class="m_next1_1"><img src="img/c_arrow_right.png" alt="next"></a>
+                        </div>
+                        <div class="sec4_txt">
+                            <img src="img/mado_pn.png" style="max-width: 435px; width: 67.5%;">
+                            <span>正体不明の組織「パンドラ」が、</span>
+                            <span>兵器としての工学人形を生産する前</span>
+                            <span>に制作したテスト用の機体。</span>
+                            <span>組織内で期待以上の人気を集めた</span> 
+                            <span>ことをきっかけに、資金を確保するため</span>
+                            <span>に市販されることとなった。</span>
+                        </div>
+                    </div>
+                    <div class="pop_shark pop" style="display: none;">
+                        <div class="sec4_img swiper-container detail_slide2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/shark1.png" alt="샤크메1" class="one" style="position: relative; left: 2%; max-width: 508px; width: 79%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/shark2.png" alt="샤크메2" class="two" style="max-width: 554px; width: 86.5%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/shark3.png" alt="샤크메3" class="three" style="max-width: 553px; width: 86.5%;">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/shark1.png" alt="샤크메1" class="one" style="position: relative; left: 2%; max-width: 508px; width: 79%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/shark2.png" alt="샤크메2" class="two" style="max-width: 554px; width: 86.5%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/shark3.png" alt="샤크메3" class="three" style="max-width: 553px; width: 86.5%;">  
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="detail_arrow mobile">
+                            <a class="m_prev1_1"><img src="img/c_arrow_left.png" alt="prev"></a>
+                            <a class="m_next1_1"><img src="img/c_arrow_right.png" alt="next"></a>
+                        </div>
+                        <div class="sec4_txt">
+                            <img src="img/shark_pn.png" style="max-width: 461px; width: 72%;">
+                            <span>シャクメと同じ見た目をしている正</span>
+                            <span>体不明の生物。幸い、闇の力を扱って</span>
+                            <span>はいないようだ。</span>
+                            <span>たゆまぬ愛情を注がないと、</span>
+                            <span>簡単にすねちゃうので注意が必要。</span>
+                        </div>
+                    </div>
+                    <div class="pop_bebe pop" style="display: none;">
+                        <div class="sec4_img swiper-container detail_slide3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/bebe1.png" alt="비비1" class="one" style="max-width:431px; width:67%; position: relative; left: 3%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/bebe2.png" alt="비비2" class="two" style="max-width:470px; width:73%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/bebe3.png" alt="비비3" class="three"  style="max-width:448px; width:70%;">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/bebe1.png" alt="비비1" class="one" style="max-width:431px; width:67%; position: relative; left: 3%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/bebe2.png" alt="비비2" class="two" style="max-width:470px; width:73%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/bebe3.png" alt="비비3" class="three"  style="max-width:448px; width:70%;">  
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="detail_arrow mobile">
+                            <a class="m_prev1_1"><img src="img/c_arrow_left.png" alt="prev"></a>
+                            <a class="m_next1_1"><img src="img/c_arrow_right.png" alt="next"></a>
+                        </div>
+                        <div class="sec4_txt">
+                            <img src="img/bebe_pn.png" style="max-width: 290px; width: 45%;">
+                            <span>歌を歌うことが特技である不思議な生物。</span>
+                            <span>その心安らぐ音色には、病を治癒させ、</span>
+                            <span>疲れ切った体を回復させる効果があ</span>
+                            <span>ると言われている</span>
+                        </div>
+                    </div>
+                    <div class="pop_ad pop" style="display: none; margin-top: -50px;">
+                        <div class="sec4_img swiper-container detail_slide4">
+                            <div class="swiper-wrapper">
+                               <div class="swiper-slide">
+                                  <img src="img/ed1.png" alt="에디1" class="one" style="max-width: 456px; width: 71.25%; margin-left: 11px;"> 
+                               </div>
+                               <div class="swiper-slide">
+                                  <img src="img/ed2.png" alt="에디2" class="two" style="max-width: 447px; width: 70%;"> 
+                               </div>
+                               <div class="swiper-slide">
+                                 <img src="img/ed3.png" alt="에디3" class="three" style="max-width: 473px; width: 74%;"> 
+                               </div>
+                               <div class="swiper-slide">
+                                <img src="img/ed1.png" alt="에디1" class="one" style="max-width: 456px; width: 71.25%; margin-left: 11px;"> 
+                             </div>
+                             <div class="swiper-slide">
+                                <img src="img/ed2.png" alt="에디2" class="two" style="max-width: 447px; width: 70%;"> 
+                             </div>
+                             <div class="swiper-slide">
+                               <img src="img/ed3.png" alt="에디3" class="three" style="max-width: 473px; width: 74%;"> 
+                             </div>    
+                            </div>  
+                        </div>
+                        <div class="detail_arrow mobile">
+                            <a class="m_prev1_1"><img src="img/c_arrow_left.png" alt="prev"></a>
+                            <a class="m_next1_1"><img src="img/c_arrow_right.png" alt="next"></a>
+                        </div>
+                        <div class="sec4_txt">
+                            <img src="img/ed_pn.png" style="max-width: 297px; width: 46.5%;">
+                            <span>台風の前に姿を現すといわれる生物。</span>
+                            <span>台風を呼び起こしていると人々に恨ま</span>
+                            <span>れがちだが、台風が過ぎ去った後</span>
+                            <span>には大地の恵みを与えて豊作にするようだ。</span>
+                        </div>
+                    </div>
+                    <div class="pop_moara pop" style="display: none;">
+                        <div class="sec4_img swiper-container detail_slide5">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/moara1.png" alt="모아라1" class="one" style="max-width: 440px; width: 68.75%;  position: relative; left: 3%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moara2.png" alt="모아라2" class="two"  style="max-width: 527px; width: 82%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moara3.png" alt="모아라3" class="three"  style="max-width: 533px; width: 83%;">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moara1.png" alt="모아라1" class="one" style="max-width: 440px; width: 68.75%;  position: relative; left: 3%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moara2.png" alt="모아라2" class="two"  style="max-width: 527px; width: 82%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moara3.png" alt="모아라3" class="three"  style="max-width: 533px; width: 83%;">  
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="detail_arrow mobile">
+                            <a class="m_prev1_1"><img src="img/c_arrow_left.png" alt="prev"></a>
+                            <a class="m_next1_1"><img src="img/c_arrow_right.png" alt="next"></a>
+                        </div>
+                        <div class="sec4_txt">
+                            <img src="img/moara_pn.png" style="max-width: 423px; width: 66%;">
+                            <span>自身の力を証明するために潔く一</span>
+                            <span>族の村から飛び出したちびの邪竜。</span>
+                            <span>まだまだ子供の体だが、恐ろし</span>
+                            <span>いほどの可能性を秘めている。</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sec5_pop_up pc" style="display:none;">
+            <div>
+                <div class="circle"> 
+                    <div class="edward sec5_pop" style="display: none;">
+                        <div class="sec5_img" style="padding-top:190px;">
+                            <img src="img/edward1.png" alt="에드워드" class="one"> 
+                        </div>
+                        <div class="sec5_txt">
+                            <img src="img/edward.png" alt="에드워드 txt">
+                            <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                            <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                            <span>레이더설명3줄정도로 나간다</span>
+                        </div>
+                    </div>
+                    <div class="jessica sec5_pop" style="display: none;">
+                            <div class="sec5_img swiper-container cir_slide2_1" style="padding-top:90px;">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/jesica1.png" alt="제시카1" class="one"> 
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/jesica2.png" alt="제시카2" class="two"> 
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/jesica3.png" alt="제시카3" class="three">  
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/jesica1.png" alt="제시카1" class="one"> 
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/jesica2.png" alt="제시카2" class="two"> 
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/jesica3.png" alt="제시카3" class="three">  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sec5_txt">
+                                <img src="img/jesica.png">
+                                <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                                <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                                <span>레이더설명3줄정도로 나간다</span>
+                            </div>                      
+                        <div class="arrow_wrap sec5">
+                            <a href="javascript:" class="arrow prev"><img src="img/y_arrow_left.png" alt="prev"></a>
+                            <a href="javascript:" class="arrow next"><img src="img/y_arrow_right.png" alt="prev"></a>
+                        </div>
+                    </div>
+                    <div class="runnard sec5_pop" style="display: none;">
+                            <div class="sec5_img swiper-container cir_slide2_2" style="padding-top:90px;">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/reynard1.png" alt="러너드1" class="one"> 
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/reynard2.png" alt="러너드3" class="two"> 
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/reynard3.png" alt="러너드3" class="three">  
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/reynard1.png" alt="러너드1" class="one"> 
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/reynard2.png" alt="러너드2" class="two"> 
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/reynard3.png" alt="러너드3" class="three">  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sec5_txt">
+                                <img src="img/reynard.png">
+                                <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                                <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                                <span>레이더설명3줄정도로 나간다</span>
+                            </div>                         
+                        <div class="arrow_wrap sec5">
+                            <a href="javascript:" class="arrow prev"><img src="img/y_arrow_left.png" alt="prev"></a>
+                            <a href="javascript:" class="arrow next"><img src="img/y_arrow_right.png" alt="prev"></a>
+                        </div>
+                    </div>
+                    <div class="coni sec5_pop" style="display: none;">
+                        <div class="sec5_img swiper-container cir_slide2_3" style="padding-top:90px;">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/coni1.png" alt="코니1" class="one"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/coni2.png" alt="코니3" class="two"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/coni3.png" alt="코니3" class="three">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/coni1.png" alt="코니1" class="one"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/coni2.png" alt="코니3" class="two"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/coni3.png" alt="코니3" class="three">  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec5_txt">
+                            <img src="img/coni.png">
+                            <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                            <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                            <span>레이더설명3줄정도로 나간다</span>
+                        </div>                         
+                    <div class="arrow_wrap sec5">
+                        <a href="javascript:" class="arrow prev"><img src="img/y_arrow_left.png" alt="prev"></a>
+                        <a href="javascript:" class="arrow next"><img src="img/y_arrow_right.png" alt="prev"></a>
+                    </div>
+                </div>
+                <div class="sally sec5_pop" style="display: none;">
+                    <div class="sec5_img swiper-container cir_slide2_4" style="padding-top:190px;">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/sally1.png" alt="샐리1" class="one"> 
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/sally2.png" alt="샐리2" class="two"> 
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/sally3.png" alt="샐리3" class="three">  
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/sally1.png" alt="샐리1" class="one"> 
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/sally2.png" alt="샐리2" class="two"> 
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/sally3.png" alt="샐리3" class="three">  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec5_txt">
+                        <img src="img/sally.png">
+                        <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                        <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                        <span>레이더설명3줄정도로 나간다</span>
+                    </div>                         
+                <div class="arrow_wrap sec5">
+                    <a href="javascript:" class="arrow prev"><img src="img/y_arrow_left.png" alt="prev"></a>
+                    <a href="javascript:" class="arrow next"><img src="img/y_arrow_right.png" alt="prev"></a>
+                </div>
+            </div>
+            <div class="brown sec5_pop" style="display: none;">
+                <div class="sec5_img swiper-container cir_slide2_5" style="padding-top:90px;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/brown1.png" alt="브라운1" class="one"> 
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/brown2.png" alt="브라운2" class="two"> 
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/brown3.png" alt="브라운3" class="three">  
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/brown1.png" alt="브라운1" class="one"> 
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/brown2.png" alt="브라운2" class="two"> 
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/brown3.png" alt="브라운3" class="three">  
+                        </div>
+                    </div>
+                </div>
+                <div class="sec5_txt">
+                    <img src="img/brown.png">
+                    <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                    <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                    <span>레이더설명3줄정도로 나간다</span>
+                </div>                         
+            <div class="arrow_wrap sec5">
+                <a href="javascript:" class="arrow prev"><img src="img/y_arrow_left.png" alt="prev"></a>
+                <a href="javascript:" class="arrow next"><img src="img/y_arrow_right.png" alt="prev"></a>
+            </div>
+        </div>
+        <div class="choco sec5_pop" style="display: none;">
+            <div class="sec5_img swiper-container cir_slide2_6" style="padding-top:90px;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/choco1.png" alt="초코1" class="one"> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/choco2.png" alt="초코2" class="two"> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/choco3.png" alt="초코3" class="three">  
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/choco1.png" alt="초코1" class="one"> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/choco2.png" alt="초코2" class="two"> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/choco3.png" alt="초코3" class="three">  
+                    </div>
+                </div>
+            </div>
+            <div class="sec5_txt">
+                <img src="img/choco.png">
+                <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                <span>레이더설명3줄정도로 나간다</span>
+            </div>                         
+                <div class="arrow_wrap sec5">
+                    <a href="javascript:" class="arrow prev"><img src="img/y_arrow_left.png" alt="prev"></a>
+                    <a href="javascript:" class="arrow next"><img src="img/y_arrow_right.png" alt="prev"></a>
+                </div>
+            </div>
+                <div class="moon sec5_pop" style="display: none;">
+                    <div class="sec5_img swiper-container cir_slide2_7" style="padding-top:90px;">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/moon1.png" alt="문1" class="one"> 
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/moon2.png" alt="문2" class="two"> 
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/moon3.png" alt="문3" class="three">  
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/moon1.png" alt="문1" class="one"> 
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/moon2.png" alt="문2" class="two"> 
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/moon3.png" alt="문3" class="three">  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec5_txt">
+                        <img src="img/moon.png">
+                        <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                        <span>레이더설명3줄정도로 나간다레이더설명3줄정도로 나간다</span>
+                        <span>레이더설명3줄정도로 나간다</span>
+                    </div>                         
+                    <div class="arrow_wrap sec5">
+                        <a href="javascript:" class="arrow prev"><img src="img/y_arrow_left.png" alt="prev"></a>
+                        <a href="javascript:" class="arrow next"><img src="img/y_arrow_right.png" alt="prev"></a>
+                    </div>
+                </div>    
+            </div>
+                <a href="javascript:" class="close" style="margin-top:10px; display: inline-block;"><img src="img/x_y.png" alt="close"></a>
+            </div>
+        </div>
+        <div class="m_sec5_pop_up mobile" style="display: none;">
+            <div>
+                <div style="text-align: right">
+                    <a href="javascript:" class="close d_close"><img src="img/w_x.png" alt="close"></a>
+                </div>
+                <div class="sec5_detail">
+                    <div class="pop_moon pop2" style="display:none;">
+                        <div class="sec5_img swiper-container detail_slide2_1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/moon1.png" alt="문1" class="one" style="position: relative;max-width: 443px; width: 69%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moon2.png" alt="문2" class="two" style="max-width: 433px; width: 67%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moon3.png" alt="문3" class="three" style="max-width: 407px; width: 63%;">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moon1.png" alt="문1" class="one" style="position: relative;max-width: 443px; width: 69%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moon2.png" alt="문2" class="two" style="max-width: 433px; width: 67%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/moon3.png" alt="문3" class="three" style="max-width: 407px; width: 63%;">  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail_arrow mobile">
+                            <a class="m_prev1_2"><img src="img/c_arrow_left.png" alt="prev"></a>
+                            <a class="m_next1_2"><img src="img/c_arrow_right.png" alt="next"></a>
+                        </div>
+                        <div class="sec5_txt" width="max-width:36px; width:5%;">
+                            <img src="img/moon.png">
+                            <span>정체불명의 집단 판도라에서</span>
+                            <span>공학 인형 병기를 생산하기 전</span>
+                            <span>시험용으로 만들어낸 기체.</span>
+                            <span>조직내에서 생각보다 인기가 있어</span>
+                            <span>자금확보용으로 판매되었다.</span>
+                        </div>
+                    </div>
+                    <div class="pop_choco pop2" style="display: none;">
+                        <div class="sec5_img swiper-container detail_slide2_2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/choco1.png" alt="초코1" class="one" style="position: relative; max-width: 460px; width: 71%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/choco2.png" alt="초코2" class="two" style="max-width: 459px; width: 72%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/choco3.png" alt="초코3" class="three" style="max-width: 461px; width: 72%;">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/choco1.png" alt="초코1" class="one" style="position: relative; max-width: 460px; width: 71%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/choco2.png" alt="초코2" class="two" style="max-width: 459px; width: 72%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/choco3.png" alt="초코3" class="three" style="max-width: 461px; width: 72%;">  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail_arrow mobile">
+                            <a class="m_prev1_2"><img src="img/c_arrow_left.png" alt="prev"></a>
+                            <a class="m_next1_2"><img src="img/c_arrow_right.png" alt="next"></a>
+                        </div>
+                        <div class="sec5_txt">
+                            <img src="img/choco.png" width="max-width:75px; width:12%;">
+                            <span>샤크메의 모습을 하고 있는 정체 불명의 생물.</span>
+                            <span>다행히도 어둠의 힘을 다루지는 않는 것 같다. </span>
+                            <span>꾸준히 애정을 주지 않으면</span>
+                            <span>쉽게 토라질 수 있으니 주의할 필요가 있다.</span>
+                        </div>
+                    </div>
+                    <div class="pop_sally pop2" style="display: none;">
+                        <div class="sec5_img swiper-container detail_slide2_3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/sally1.png" alt="샐리1" class="one" style="max-width:370px; width:60%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/sally2.png" alt="샐리2" class="two" style="max-width:383px; width:60%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/sally3.png" alt="샐리3" class="three"  style="max-width:388px; width:60%;">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/sally1.png" alt="샐리1" class="one" style="max-width:370px; width:60%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/sally2.png" alt="샐리2" class="two" style="max-width:383px; width:60%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/sally3.png" alt="샐리3" class="three"  style="max-width:388px; width:60%;">  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail_arrow mobile">
+                            <a class="m_prev1_2"><img src="img/c_arrow_left.png" alt="prev"></a>
+                            <a class="m_next1_2"><img src="img/c_arrow_right.png" alt="next"></a>
+                        </div>
+                        <div class="sec5_txt" width="max-width:75px; width:12%;">
+                            <img src="img/sally.png">
+                            <span>노래하는 것이 취미인 특이한 생물. </span>
+                            <span>듣기 좋을 뿐만 아니라 병을 치유하고</span>
+                            <span>지친 몸을 회복시키는 효과가 있다고 한다.</span>
+                        </div>
+                    </div>
+                    <div class="pop_coni pop2" style="display: none;">
+                        <div class="sec5_img swiper-container detail_slide2_4">
+                            <div class="swiper-wrapper">
+                               <div class="swiper-slide">
+                                  <img src="img/coni1.png" alt="코니1" class="one" style="max-width: 446px; width: 71%;"> 
+                               </div>
+                               <div class="swiper-slide">
+                                  <img src="img/coni2.png" alt="코니2" class="two" style="max-width: 430px; width: 67%;"> 
+                               </div>
+                               <div class="swiper-slide">
+                                 <img src="img/coni3.png" alt="코니3" class="three" style="max-width: 430px; width: 67%;"> 
+                               </div>  
+                               <div class="swiper-slide">
+                                <img src="img/coni1.png" alt="코니1" class="one" style="max-width: 446px; width: 71%;"> 
+                             </div>
+                             <div class="swiper-slide">
+                                <img src="img/coni2.png" alt="코니2" class="two" style="max-width: 430px; width: 67%;"> 
+                             </div>
+                             <div class="swiper-slide">
+                               <img src="img/coni3.png" alt="코니3" class="three" style="max-width: 430px; width: 67%;"> 
+                             </div>  
+                            </div>  
+                        </div>
+                        <div class="detail_arrow mobile">
+                            <a class="m_prev1_2"><img src="img/c_arrow_left.png" alt="prev"></a>
+                            <a class="m_next1_2"><img src="img/c_arrow_right.png" alt="next"></a>
+                        </div>
+                        <div class="sec5_txt">
+                            <img src="img/coni.png" width="max-width:75px; width:12%;">
+                            <span>태풍이 오기 전 모습을 드러낸다는 생물.</span>
+                            <span>태풍을 불러들인다 해서</span>
+                            <span>사람들의 원망을 사기도 하지만</span>
+                            <span>지나간 후에는 대지에</span>
+                            <span>축복이 깃들어 풍년이 들게 한다.</span>
+                        </div>
+                    </div>
+                    <div class="pop_ad pop2" style="display:none;">
+                        <div class="sec5_img">
+                            <div style="text-align:center;">
+                                 <img src="img/edward1.png" alt="에드워드" class="one" style="max-width: 426px; width: 66.5%;"> 
+                             </div>
+                        </div>
+                        <div class="sec5_txt">
+                            <img src="img/edward.png" style="max-width:156px; width: 24%;">
+                            <span>정체불명의 집단 판도라에서</span>
+                            <span>공학 인형 병기를 생산하기 전</span>
+                            <span>시험용으로 만들어낸 기체.</span>
+                            <span>조직내에서 생각보다 인기가 있어</span>
+                            <span>자금확보용으로 판매되었다.</span>
+                        </div>
+                    </div>
+                    <div class="pop_runnard pop2" style="display: none;">
+                        <div class="sec5_img swiper-container detail_slide2_6">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/reynard1.png" alt="러너드1" class="one" style="max-width: 432px; width: 67.5%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/reynard2.png" alt="러너드2" class="two"  style="max-width: 411px; width: 64%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/reynard3.png" alt="러너드3" class="three"  style="max-width: 427px; width: 67%;">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/reynard1.png" alt="러너드1" class="one" style="max-width: 432px; width: 67.5%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/reynard2.png" alt="러너드2" class="two"  style="max-width: 411px; width: 64%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/reynard3.png" alt="러너드3" class="three"  style="max-width: 427px; width: 67%;">  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail_arrow mobile">
+                            <a class="m_prev1_2"><img src="img/c_arrow_left.png" alt="prev"></a>
+                            <a class="m_next1_2"><img src="img/c_arrow_right.png" alt="next"></a>
+                        </div>
+                        <div class="sec5_txt">
+                            <img src="img/reynard.png" style="max-width: 115px; width: 18%;">
+                            <span>자신의 힘을 증명하고 싶어</span>
+                            <span>기세좋게 일족을 뛰쳐나온 꼬마 악룡.</span>
+                            <span>어직 다 자라지 못한 몸이지만</span>
+                            <span>무시무시한 가능성이 엿보인다.</span>
+                        </div>
+                    </div>
+                    <div class="pop_jesica pop2" style="display: none;">
+                        <div class="sec5_img swiper-container detail_slide2_7">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/jesica1.png" alt="제시카1" class="one" style="max-width: 432px; width: 67.5%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/jesica2.png" alt="제시카2" class="two"  style="max-width: 447px; width: 70%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/jesica3.png" alt="제시카3" class="three"  style="max-width: 474px; width: 74%;">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/jesica1.png" alt="제시카1" class="one" style="max-width: 432px; width: 67.5%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/jesica2.png" alt="제시카2" class="two"  style="max-width: 447px; width: 70%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/jesica3.png" alt="제시카3" class="three"  style="max-width: 474px; width: 74%;">  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail_arrow mobile">
+                            <a class="m_prev1_2"><img src="img/c_arrow_left.png" alt="prev"></a>
+                            <a class="m_next1_2"><img src="img/c_arrow_right.png" alt="next"></a>
+                        </div>
+                        <div class="sec5_txt">
+                            <img src="img/jesica.png" style="max-width: 115px; width: 18%;">
+                            <span>자신의 힘을 증명하고 싶어</span>
+                            <span>기세좋게 일족을 뛰쳐나온 꼬마 악룡.</span>
+                            <span>어직 다 자라지 못한 몸이지만</span>
+                            <span>무시무시한 가능성이 엿보인다.</span>
+                        </div>
+                    </div>
+                    <div class="pop_brown pop2" style="display: none;">
+                        <div class="sec5_img swiper-container detail_slide2_8">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/brown1.png" alt="브라운1" class="one" style="max-width: 443px; width: 69%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/brown2.png" alt="브라운2" class="two"  style="max-width: 448px; width: 70%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/brown3.png" alt="브라운3" class="three"  style="max-width: 439px; width: 68.5%;">  
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/brown1.png" alt="브라운1" class="one" style="max-width: 443px; width: 69%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/brown2.png" alt="브라운2" class="two"  style="max-width: 448px; width: 70%;"> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/brown3.png" alt="브라운3" class="three"  style="max-width: 439px; width: 68.5%;">  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail_arrow mobile">
+                            <a class="m_prev1_2"><img src="img/c_arrow_left.png" alt="prev"></a>
+                            <a class="m_next1_2"><img src="img/c_arrow_right.png" alt="next"></a>
+                        </div>
+                        <div class="sec5_txt">
+                            <img src="img/brown.png" style="max-width: 115px; width: 18%;">
+                            <span>자신의 힘을 증명하고 싶어</span>
+                            <span>기세좋게 일족을 뛰쳐나온 꼬마 악룡.</span>
+                            <span>어직 다 자라지 못한 몸이지만</span>
+                            <span>무시무시한 가능성이 엿보인다.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div style="padding:0 20px;">
+                <div style="text-align: right; padding-top:20px;">
+                  <a href="javascript:" class="slide_close open"><img src="img/pop_up_x.png"></a>
+                </div>
+               <div class="list">
+                   <ul>
+                       <li><a href="javascript:">メイン</a></li>
+                       <li><a href="javascript:">事前登録</a></li>
+                       <li><a href="javascript:">報酬のご案内</a></li>
+                       <li><a href="javascript:">レイダー紹介1</a></li>
+                       <li><a href="javascript:">レイダー紹介2</a></li>
+                   </ul>
+               </div>
+               <div class="m_sns">
+                    <ul>
+                        <li><a href="javascript:" onclick="Share('facebook')"><img src="img/m_facebook.png" alt="페이스북" style="max-width: 26px;" ></a></li>
+                        <li><a href="javascript:" onclick="Share('twitter')"><img src="img/m_twitter.png" alt="트위터" style="max-width: 27px;"></a></li>
+                        <li><a href="javascript:" onclick="CopyUrlToClipboard(); return false;" class="clip"><img src="img/m_url.png" alt="클립" style="max-width: 45px;"></a></li>
+                    </ul>
+                </div>
+                <ul class="m_store clearfix">
+                    <li>
+                        <a class="go_store" href="https://apps.apple.com/app/id1097735195?mt=8" target="_blnak"><img src="img/m_app.png" alt="애플스토어로"></a>
+                    </li>
+                    <li>
+                        <a class="go_store" href="https://play.google.com/store/apps/details?id=com.vespainteractive.KingsRaid&amp;referrer=adjust_reftag%3Dctwub1PJwRVoice ActorT%26utm_source%3D20200525_Preregister_Fallenfate%26utm_campaign%3DBrandsite" target="_blank"><img src="img/m_google.png" alt="구글플레이로"></a>
+                    </li>											  			  
+                </ul>
+            </div>
+        </div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.1/jquery.mb.YTPlayer.min.js"></script>
+<script src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vfl1aVfNF/www-widgetapi.js" async></script>  
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+<script type="text/javascript" src="lib/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="lib/modernizr-2.6.2.min.js"></script>
+<script type="text/javascript" src="lib/jquery.zoomslider.js"></script>
+<script src="js/skrollr.min.js"></script>
+<script>
+    skrollr.init({
+    forceHeight: false,
+    mobileCheck: function(){
+                if((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+                    // mobile device
+            }
+        }
+    });
+
+    $(window).scroll(function () {
+        var scrollValue = $(document).scrollTop();
+        console.log(scrollValue)
+    })
+
+
+    var windowWidth = $( window ).width();
+    
+    if(windowWidth < 768) {
+        setInterval(function() {
+            
+        }, 0);
+    } else {
+        setInterval(function() {
+            $('.go_sec2 img').animate({width:'242px'},1000).animate({width:'245px'},500)
+        }, 0);
+    }
+    
+    
+</script>
+<script>
+
+var mswiper1 = new Swiper('.m_slide1', {
+    speed: 400,
+    spaceBetween: 100,
+    navigation: {
+    nextEl: '.m_next1',
+    prevEl: '.m_prev1'
+  },
+  loop: true,
+});
+var mswiper2 = new Swiper('.m_slide2', {
+    speed: 400,
+    spaceBetween: 100,
+    navigation: {
+    nextEl: '.m_next2',
+    prevEl: '.m_prev2'
+  },
+  loop: true,
+});
+
+</script>
+<script>
+
+function oneCheckbox(a){
+
+var obj = document.getElementsByClassName("store");
+
+for(var i=0; i<obj.length; i++){
+    if(obj[i] != a){
+        obj[i].checked = false;
+    }
+}
+    if($('#google_play').is(':checked')){
+        $('.google_play img').attr('src',"img/b_play.png");
+    }else{
+        $('.google_play img').attr('src',"img/g_play.png");
+    }
+    if($('#app_store').is(':checked')){
+            $('.app_store img').attr('src',"img/b_apple.png");
+        }else{
+            $('.app_store img').attr('src',"img/g_apple.png");
+        }
+}
+
+</script>
+<script>
+    $(document).ready(function(){
+        var winH = $(window).innerHeight();
+        var winW = $(window).width();
+        var sec1H = $('.section1').offset().top;
+        var sec2H = $('.section2').offset().top;
+        var sec3H = $('.section3').offset().top;
+        var sec4H = $('.section4').offset().top;
+        var sec5H = $('.section5').offset().top;
+        var target;
+        var toggle=0;
+        var m_toggle=0;
+
+        if(winW<750){
+            $('.sec1_img img').attr('src',"img/m_sec1_img.png");
+            $('.sec2_title img').attr('src',"img/m_sec2_title.png");
+            $('.sec3_title img').attr('src',"img/m_sec3_title.png");
+            $('.sec4_title img').attr('src',"img/m_sec4_title.png");
+            $('.sec5_title img').attr('src',"img/m_sec5_title.png");
+            $('.a_one img').attr('src',"img/m1.png");
+            $('.a_three img').attr('src',"img/m3.png");
+            $('.a_six img').attr('src',"img/m6.png");
+            $('.a_ten img').attr('src',"img/m10.png");
+            $('.submit img.mobile').css({display:"inline"})
+
+        }else{
+            $('.sec1_img img').attr('src',"img/sec1_img.png");
+            $('.sec2_title img').attr('src',"img/sec2_title.png");
+            $('.sec3_title img').attr('src',"img/sec3_title.png");
+            $('.sec4_title img').attr('src',"img/sec4_title.png");
+            $('.sec5_title img').attr('src',"img/sec5_title.png");
+            $('.a_one img').attr('src',"img/1.png");
+            $('.a_three img').attr('src',"img/3.png");
+            $('.a_six img').attr('src',"img/6.png");
+            $('.a_ten img').attr('src',"img/10.png");
+            $('.submit img.mobile').css({display:"none"})
+        }
+        $(window).resize(function(){
+            winW = $(window).innerWidth();
+             sec1H = $('.section1').offset().top;
+            sec2H = $('.section2').offset().top;
+            sec3H = $('.section3').offset().top;
+            sec4H = $('.section4').offset().top;
+            sec5H = $('.section5').offset().top;
+
+        if(winW<750){
+            $('.sec1_img img').attr('src',"img/m_sec1_img.png");
+            $('.sec2_title img').attr('src',"img/m_sec2_title.png");
+            $('.sec3_title img').attr('src',"img/m_sec3_title.png");
+            $('.sec4_title img').attr('src',"img/m_sec4_title.png");
+            $('.sec5_title img').attr('src',"img/m_sec5_title.png");
+            $('.a_one img').attr('src',"img/m1.png");
+            $('.a_three img').attr('src',"img/m3.png");
+            $('.a_six img').attr('src',"img/m6.png");
+            $('.a_ten img').attr('src',"img/m10.png");
+            $('.submit img.mobile').css({display:"inline"})
+            if(toggle==1){  
+                $('html, body').css({'overflowX':'hidden','overflowY':'auto'}); //scroll hidden 해제
+                $('#element').off('scroll touchmove mousewheel'); // 터치무브 및 마우스휠 스크롤 가능         
+                $('.pop_up').css({display:"none"});  
+                $('.sec5_pop_up').css({display:"none"});
+                $('.sec5_pop').css({display:"none"});      
+            }
+        }else{
+            $('.sec1_img img').attr('src',"img/sec1_img.png");
+            $('.sec2_title img').attr('src',"img/sec2_title.png");
+            $('.sec3_title img').attr('src',"img/sec3_title.png");
+            $('.sec4_title img').attr('src',"img/sec4_title.png");
+            $('.sec5_title img').attr('src',"img/sec5_title.png");
+            $('.a_one img').attr('src',"img/1.png");
+            $('.a_three img').attr('src',"img/3.png");
+            $('.a_six img').attr('src',"img/6.png");
+            $('.a_ten img').attr('src',"img/10.png");
+            $('.submit img.mobile').css({display:"none"})
+            if(m_toggle==1){
+                $('.m_pop_up').css({display:"none"}); 
+                $('.sec5_detail .pop2').css({display:"none"});       
+                $('.m_sec5_pop_up').css({display:"none"}); 
+                $('.m_pop_up .sec4_detail .pop').css({display:"none"});       
+                $('html, body').css({'overflowX':'hidden','overflowY':'auto'}); //scroll hidden 해제
+                $('#element').off('scroll touchmove mousewheel'); // 터치무브 및 마우스휠 스크롤 가능       
+            }
+        }
+  
+        })
+
+        $(window).on('scroll',function() {
+            var scrollTop = $(window).scrollTop();
+            if(scrollTop < sec2H/2 || winW<750){
+                $('.nav').fadeOut(500);
+            }else{
+                $('.nav').fadeIn(500);
+            }
+            $('nav ul li').css({"background-color":"transparent","border-color":"#fff"});
+            $('nav ul li span').css({"color":"#fff"});
+            if(scrollTop >= sec2H && scrollTop < sec3H){
+                $('nav ul li:nth-child(2)').css({"background-color":"#3761d6","border-color":"#3761d6"});
+            }
+            if(scrollTop >= sec3H && scrollTop < sec4H){
+                $('nav ul li:nth-child(3)').css({"background-color":"#3761d6","border-color":"#3761d6"});
+            }
+            if(scrollTop >= sec4H && scrollTop < sec5H-30){
+                $('nav ul li:nth-child(4)').css({"background-color":"#3761d6","border-color":"#3761d6"});
+            }
+            if(scrollTop >= sec5H-30){
+                $('nav ul li:nth-child(5)').css({"background-color":"#ffda00","border-color":"#ffda00"});
+                $('nav ul li:nth-child(5) span').css({"color":"#0d2771"});
+            }
+            if(winW<750){
+            if((scrollTop >= $('.sec2_left').offset().top-20 && scrollTop < $('.sec2_left').offset().top+$('.sec2_left').outerHeight()-50)||
+               (scrollTop >= $('.sec2_right').offset().top-20 && scrollTop < $('.sec2_right').offset().top+$('.sec2_right').outerHeight()-20)
+            ){
+                $('.ham img').attr('src',"img/m_b_ham.png");
+                $('.home img').attr('src',"img/m_b_home.png");
+            }else{
+                $('.ham img').attr('src',"img/m_ham.png");     
+                $('.home img').attr('src',"img/m_home.png");       
+            }         
+            }
+        });
+
+        $('.close').on({
+            "click":function(e){
+                e.preventDefault();
+                toggle = 0;
+                $('html, body').css({'overflowX':'hidden','overflowY':'auto'}); //scroll hidden 해제
+                $('#element').off('scroll touchmove mousewheel'); // 터치무브 및 마우스휠 스크롤 가능
+                $('.pop_up').css({display:'none'}); 
+                $('.sec5_pop_up').css({display:"none"});
+                $('.sec5_pop_up .sec5_pop').css({display:"none"});               
+                $('.sec4_detail .pop').css({display:"none"});  
+                $('.sec5_detail div.pop2').css({display:"none"});      
+            }
+        })
+
+        $('nav ul li').each(function(index){
+            var goto = $('section').eq(index).offset().top;
+                $(this).click(function(){
+                    $('html, body').animate({scrollTop : goto}, 400);
+                })
+            })
+            $('.list ul li').each(function(index){
+                $(this).click(function(){
+                    $('.header').css({display:"block"});
+                    $('html, body').css({'overflowX':'hidden','overflowY':'auto'}); //scroll hidden 해제
+                    $('#element').off('scroll touchmove mousewheel'); // 터치무브 및 마우스휠 스크롤 가능
+                    $('.slide').animate({left:'-100%'},300);        
+                    $('html, body').animate({scrollTop : $('section').eq(index).offset().top}, 400);
+                })
+            })
+            $('.sec4_plus').each(function(index){
+            $(this).click(function(){
+                $('.pop_up').css({display:"block"});
+                $('.arrow_wrap').css({display:"block"});
+                $('html, body').css({'overflowX':'hidden','overflowY':'hidden'});
+                $('#element').on('scroll touchmove mousewheel', function(event) { 
+                        event.preventDefault();    
+                         event.stopPropagation();
+                              return false; });
+                $('.pop_up .sec4_detail>div:nth-child('+(index+1)+')').css({display:"block"});
+                toggle = 1;
+                var mySwiper = new Swiper('.cir_slide'+(index+1), {
+                    effect: 'cube',
+                     cubeEffect: {
+                    shadow: false,
+                    slideShadows: false,
+                    },
+                    speed: 400,
+                    navigation: {
+                    nextEl: '.next',
+                    prevEl: '.prev'
+                },
+                loop: true,
+                });
+            })
+        })
+
+        $('.sec5_plus').each(function(index){
+            $(this).click(function(){
+                $('.sec5_pop_up').css({display:"block"});
+                $('html, body').css({'overflowX':'hidden','overflowY':'hidden'}); 
+                $('#element').on('scroll touchmove mousewheel', function(event) { 
+                        event.preventDefault();    
+                         event.stopPropagation();
+                              return false; });
+                $('.sec5_pop_up .sec5_pop:nth-child('+(index+1)+')').css({display:"block"});
+                toggle = 1;
+                var mySwiper = new Swiper('.cir_slide2_'+(index), {
+                    effect: 'cube',
+                     cubeEffect: {
+                    shadow: false,
+                    slideShadows: false,
+                    },
+                    speed: 400,
+                    navigation: {
+                    nextEl: '.next',
+                    prevEl: '.prev'
+                },
+                loop: true,
+                });
+            })
+        })
+
+        $('.go_sec2 img').click(function(){
+            $('html, body').animate({scrollTop : $('.section2').offset().top}, 400);
+        })
+
+        $('.sec4_name').each(function(idx){
+            $(this).click(function(e){
+                e.preventDefault();
+                $('html, body').css({'overflowX':'hidden','overflowY':'hidden'}); 
+                $('#element').on('scroll touchmove mousewheel', function(event) { 
+                        event.preventDefault();    
+                         event.stopPropagation();
+                              return false; });
+                m_toggle = 1;
+                if(idx==6){
+                    idx=1;
+                }
+                if(idx==0){
+                    idx=5;
+                }
+                //  target = $(this).attr('class');
+                $('.m_pop_up').css({display:"block"});
+                $('.mobile .pop:nth-child('+(idx)+')').css({display:"block"});
+                var mswiper1_1 = new Swiper('.detail_slide'+(idx), {
+                    effect: 'cube',
+                     cubeEffect: {
+                    shadow: false,
+                    slideShadows: false,
+                    },
+                    speed: 400,
+                    navigation: {
+                        nextEl: '.m_next1_1',
+                        prevEl: '.m_prev1_1'
+                },
+                loop: true,
+                });
+            })
+        })   
+        $('.sec5_name').each(function(idx){
+            $(this).click(function(e){
+                e.preventDefault();
+                $('html, body').css({'overflowX':'hidden','overflowY':'hidden'}); 
+                $('#element').on('scroll touchmove mousewheel', function(event) { 
+                        event.preventDefault();    
+                         event.stopPropagation();
+                              return false; });
+                m_toggle = 1;
+                if(idx==9){
+                    idx=1;
+                }
+                if(idx==0){
+                    idx=8;
+                }
+
+                $('.m_sec5_pop_up').css({display:"block"});
+                $('.m_sec5_pop_up .pop2:nth-child('+(idx)+')').css({display:"block"});
+                var mswiper1_2 = new Swiper('.detail_slide2_'+(idx), {
+                    effect: 'cube',
+                     cubeEffect: {
+                    shadow: false,
+                    slideShadows: false,
+                    },
+                    speed: 400,
+                    navigation: {
+                        nextEl: '.m_next1_2',
+                        prevEl: '.m_prev1_2'
+                },
+                loop: true,
+                });
+            })
+        })         
+        // checkbox_전체동의
+        $('.agree_all').on('click', function(){
+            $('.agree').prop('checked', this.checked);
+        });
+
+        $('.agree').on('click',function(){
+            if($('.agree_all').prop('checked')){
+                $('.agree_all').prop('checked',false);
+            }
+        });     
+
+        $('.d_close').click(function(){
+            m_toggle=0;
+            $('html, body').css({'overflowX':'hidden','overflowY':'auto'});//scroll hidden 해제
+            $('#element').off('scroll touchmove mousewheel'); // 터치무브 및 마우스휠 스크롤 가능
+            $('.m_pop_up').css({display:"none"});
+            $('.sec4_detail pop').css({display:"none"});
+            $('.m_sec5_pop_up').css({display:"none"});
+            $('.sec5_detail pop2').css({display:"none"});
+        })
+        });
+
+        $('.agree_close').click(function(){
+            $('html, body').css({'overflowX':'hidden','overflowY':'auto'});//scroll hidden 해제
+            $('#element').off('scroll touchmove mousewheel'); // 터치무브 및 마우스휠 스크롤 가능
+            $('.bg').css({display:"none"});
+            $('.reser_pop').css({display:"none"});
+        })
+        $('.info').click(function(e){
+            e.preventDefault();  
+            $('html, body').css({'overflowX':'hidden','overflowY':'hidden'});  
+            $('#element').on('scroll touchmove mousewheel', function(event) { 
+                event.preventDefault();    
+                event.stopPropagation();
+                    return false; });
+            $('.pop_up1').css({display:"block"});
+            $('.bg').css({display:"block"});
+        })
+
+        $('.event').click(function(e){
+            e.preventDefault();
+            $('html, body').css({'overflowX':'hidden','overflowY':'hidden'}); 
+            $('#element').on('scroll touchmove mousewheel', function(event) { 
+                event.preventDefault();    
+                event.stopPropagation();
+                    return false; });
+            $('.pop_up2').css({display:"block"});
+            $('.bg').css({display:"block"});
+        })
+// 사전신청 버튼
+        function email_check( email ) {
+        var regex=/([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+        return (email != '' && email != 'undefined' && regex.test(email));
+        }
+        $('.submit').click(function(){
+            if(!$('#app_store').prop('checked')&&!$('#google_play').prop('checked')){
+                $('.pop_up8').css({display:"block"});
+            }
+            if(!$('#ag1').prop('checked')||!$('#ag2').prop('checked')||!$('#ag3').prop('checked')||$('.store').prop('checked')){
+                $('html, body').css({'overflowX':'hidden','overflowY':'hidden'});  
+            $('#element').on('scroll touchmove mousewheel', function(event) { 
+                event.preventDefault();    
+                event.stopPropagation();
+                    return false; });
+                $('.pop_up5').css({display:"block"});
+                $('.bg').css({display:"block"});
+                return false;    		
+            }    
+            var email = $('.email').val();
+            if ( ! email_check(email) ) {
+                $('html, body').css({'overflowX':'hidden','overflowY':'hidden'});  
+                $('#element').on('scroll touchmove mousewheel', function(event) { 
+                    event.preventDefault();    
+                    event.stopPropagation();
+                        return false; });
+                $('.pop_up3').css({display:"block"});
+                $('.bg').css({display:"block"});	
+            $('.email').focus();
+            return false;    
+            }
+   
+            $.ajax({
+                type: 'post',
+                dataType: 'json',
+                url: '.php',
+                data:$('#form').serialize(),
+             
+                success:function(data){
+                    $('.pop_up6').css({display:"block"});
+                    $('.bg').css({display:"block"});
+                    $('html, body').css({'overflowX':'hidden','overflowY':'hidden'}); 
+            $('#element').on('scroll touchmove mousewheel', function(event) { 
+                event.preventDefault();    
+                event.stopPropagation();
+                    return false; });
+                    $('.email').val('');
+                },
+                error: function(error){
+          
+                }
+            });  
+        })
+
+        $('.ham').click(function(e){
+            e.preventDefault(); 
+            $('.slide').css({display:"block"});
+            $('.slide').animate({left:0},300);
+            $('.header').css({display:"none"});
+            // $('html, body').animate({scrollTop :0},400);
+            $('html, body').css({'overflowX':'hidden','overflowY':'hidden'});  
+            $('#element').on('scroll touchmove mousewheel', function(event) { 
+                    event.preventDefault();    
+                    event.stopPropagation();
+                    return false; });
+        })
+        $('.slide_close').click(function(e){
+            e.preventDefault(); 
+            $('.slide').animate({left:'-100%'},300);          
+            $('.header').css({display:"block"});
+            $('html, body').css({'overflowX':'hidden','overflowY':'auto'});//scroll hidden 해제
+            $('#element').off('scroll touchmove mousewheel'); // 터치무브 및 마우스휠 스크롤 가능
+        })
+
+        var $temp = $("<input>");
+        var $url = $(location).attr('href');
+
+        function CopyUrlToClipboard(){
+            $("body").append($temp);
+            $temp.val($url).select();
+            document.execCommand("copy");
+            $temp.remove();
+            alert('共有リンクをコピーしました。');
+        }
+        var url_default_tw_txt = "https://twitter.com/intent/tweet?text="; 
+        var url_default_fb = "https://www.facebook.com/sharer/sharer.php?p[url]="; 
+        var url_this_page = location.href; 
+        var url_default_tw_url = "&url="; 
+        var url_combine_fb = url_default_fb + url_this_page; 
+        var url_combine_tw = url_default_tw_txt + "킹스레이드" + url_default_tw_url + url_this_page; 
+        function Share(type){
+            if(type=='twitter'){
+                window.open(url_combine_tw, '', 'scrollbars=no, width=600, height=600');
+            }else if(type=='facebook'){
+                window.open(url_combine_fb, '', 'scrollbars=no, width=600, height=600');
+            }
+        }
+</script>
+    </body>
+</html>
